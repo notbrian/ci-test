@@ -3,10 +3,17 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "test" : "spacejam test --once --driver-package practicalmeteor:mocha"
+    "test": "spacejam test --once --driver-package practicalmeteor:mocha && eslint ."
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
     "babel-runtime": "6.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0"
   }
 }
