@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "test" : "meteor add practicalmeteor:mocha && meteor test --once --driver-package dispatch:mocha-phantomjs"
+    "test" : "meteor npm rebuild && meteor test --once --driver-package dispatch:mocha-phantomjs"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
