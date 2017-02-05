@@ -1,8 +1,12 @@
 {
-    "extends": "airbnb",
+    "extends": ["airbnb", "plugin:meteor/recommended"],
     "plugins": [
         "react",
         "jsx-a11y",
-        "import"
-    ]
+        "import",
+        "meteor"
+    ],
+    "rules": {
+        "import/no-extraneous-dependencies": 0
+    }
 }
