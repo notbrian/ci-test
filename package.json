@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "test": "spacejam test --once --driver-package practicalmeteor:mocha"
+    "test": "spacejam test --once --driver-package practicalmeteor:mocha && eslint ."
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
