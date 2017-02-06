@@ -1,4 +1,5 @@
 language: node_js
-before_install: "sudo curl https://install.meteor.com | /bin/sh && npm install -g spacejam
-"
+node_js:
+  - node
+before_install: "sudo curl https://install.meteor.com | /bin/sh && npm install -g spacejam"
 sudo: required
