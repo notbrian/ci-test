@@ -1,9 +1,4 @@
 {
-    "plugins": [
-        "react",
-        "jsx-a11y",
-        "import"
-    ],
     "parser": "babel-eslint",
     "parserOptions": {
         "allowImportExportEverywhere": true
@@ -20,7 +15,7 @@
 
     },
     "rules": {
-      "import/extensions": ["off", "never"],
-      "import/no-extraneous-dependencies": "off"
+        "import/extensions": ["off", "never"],
+        "import/no-extraneous-dependencies": "off"
     }
 }
